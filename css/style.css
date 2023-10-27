@@ -797,13 +797,11 @@ textarea.form-control {
   color: #fff;
 }
 
-.contact-details {
-  padding: 0px 0;
-  border-bottom: 1px solid #d2d2e2;
-}
 .nav-text {
   color: #fff;
-  font-size: 13px;
+  font-size: 14px;
+  margin: 0px;
+  text-shadow: 3px 2px 1px black;
 }
 
 .banner {
