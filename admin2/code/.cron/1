@@ -1,0 +1,410 @@
+Array
+(
+    [nginx_version] => 1.18.0
+    [nginx_rtmp_version] => 1.1.4
+    [built] => Apr 27 2022 10:56:57
+    [pid] => 54451
+    [uptime] => 199
+    [naccepted] => 6
+    [bw_in] => 10169128
+    [bytes_in] => 217417730
+    [bw_out] => 0
+    [bytes_out] => 2562
+    [server] => Array
+        (
+            [application] => Array
+                (
+                    [name] => live
+                    [live] => Array
+                        (
+                            [stream] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [name] => sudantv
+                                            [time] => 198750
+                                            [bw_in] => 1088584
+                                            [bytes_in] => 24724825
+                                            [bw_out] => 0
+                                            [bytes_out] => 0
+                                            [bw_audio] => 145320
+                                            [bw_video] => 943264
+                                            [client] => Array
+                                                (
+                                                    [id] => 2
+                                                    [address] => 208.79.153.25
+                                                    [time] => 198758
+                                                    [flashver] => FMLE/3.0 (compatible; Lavf56.40
+                                                    [dropped] => 0
+                                                    [avsync] => 11
+                                                    [timestamp] => 4895050
+                                                    [publishing] => Array
+                                                        (
+                                                        )
+
+                                                    [active] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [meta] => Array
+                                                (
+                                                    [video] => Array
+                                                        (
+                                                            [width] => 640
+                                                            [height] => 360
+                                                            [frame_rate] => 29
+                                                            [codec] => H264
+                                                            [profile] => High
+                                                            [compat] => 0
+                                                            [level] => 3.0
+                                                        )
+
+                                                    [audio] => Array
+                                                        (
+                                                            [codec] => AAC
+                                                            [profile] => LC
+                                                            [channels] => 2
+                                                            [sample_rate] => 48000
+                                                        )
+
+                                                )
+
+                                            [nclients] => 1
+                                            [publishing] => Array
+                                                (
+                                                )
+
+                                            [active] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [name] => miamitv
+                                            [time] => 198782
+                                            [bw_in] => 1297216
+                                            [bytes_in] => 29641262
+                                            [bw_out] => 0
+                                            [bytes_out] => 0
+                                            [bw_audio] => 138520
+                                            [bw_video] => 1158696
+                                            [client] => Array
+                                                (
+                                                    [id] => 1
+                                                    [address] => 208.79.153.25
+                                                    [time] => 198790
+                                                    [flashver] => FMLE/3.0 (compatible; Lavf56.40
+                                                    [dropped] => 0
+                                                    [avsync] => 25
+                                                    [timestamp] => 4895086
+                                                    [publishing] => Array
+                                                        (
+                                                        )
+
+                                                    [active] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [meta] => Array
+                                                (
+                                                    [video] => Array
+                                                        (
+                                                            [width] => 1280
+                                                            [height] => 720
+                                                            [frame_rate] => 29
+                                                            [codec] => H264
+                                                            [profile] => High
+                                                            [compat] => 0
+                                                            [level] => 3.1
+                                                        )
+
+                                                    [audio] => Array
+                                                        (
+                                                            [codec] => AAC
+                                                            [profile] => LC
+                                                            [channels] => 2
+                                                            [sample_rate] => 48000
+                                                        )
+
+                                                )
+
+                                            [nclients] => 1
+                                            [publishing] => Array
+                                                (
+                                                )
+
+                                            [active] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [name] => rustavi2
+                                            [time] => 184430
+                                            [bw_in] => 844224
+                                            [bytes_in] => 21153928
+                                            [bw_out] => 0
+                                            [bytes_out] => 0
+                                            [bw_audio] => 132504
+                                            [bw_video] => 949560
+                                            [client] => Array
+                                                (
+                                                    [id] => 6
+                                                    [address] => 208.79.153.29
+                                                    [time] => 184510
+                                                    [flashver] => FMLE/3.0 (compatible; FMSc/1.0)
+                                                    [swfurl] => WowzaProLiveRepeater
+                                                    [dropped] => 0
+                                                    [avsync] => -22
+                                                    [timestamp] => 1194432
+                                                    [publishing] => Array
+                                                        (
+                                                        )
+
+                                                    [active] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [meta] => Array
+                                                (
+                                                    [video] => Array
+                                                        (
+                                                            [width] => 854
+                                                            [height] => 480
+                                                            [frame_rate] => 25
+                                                            [codec] => H264
+                                                            [profile] => Baseline
+                                                            [compat] => 0
+                                                            [level] => 3.1
+                                                        )
+
+                                                    [audio] => Array
+                                                        (
+                                                            [codec] => AAC
+                                                            [profile] => LC
+                                                            [channels] => 1
+                                                            [sample_rate] => 48000
+                                                        )
+
+                                                )
+
+                                            [nclients] => 1
+                                            [publishing] => Array
+                                                (
+                                                )
+
+                                            [active] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [name] => sharjahtv
+                                            [time] => 196926
+                                            [bw_in] => 1163288
+                                            [bytes_in] => 25094889
+                                            [bw_out] => 0
+                                            [bytes_out] => 0
+                                            [bw_audio] => 141688
+                                            [bw_video] => 1021600
+                                            [client] => Array
+                                                (
+                                                    [id] => 3
+                                                    [address] => 208.79.153.25
+                                                    [time] => 196934
+                                                    [flashver] => FMLE/3.0 (compatible; Lavf56.40
+                                                    [dropped] => 0
+                                                    [avsync] => 10
+                                                    [timestamp] => 4895727
+                                                    [publishing] => Array
+                                                        (
+                                                        )
+
+                                                    [active] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [meta] => Array
+                                                (
+                                                    [video] => Array
+                                                        (
+                                                            [width] => 720
+                                                            [height] => 576
+                                                            [frame_rate] => 29
+                                                            [codec] => H264
+                                                            [profile] => High
+                                                            [compat] => 0
+                                                            [level] => 3.1
+                                                        )
+
+                                                    [audio] => Array
+                                                        (
+                                                            [codec] => AAC
+                                                            [profile] => LC
+                                                            [channels] => 2
+                                                            [sample_rate] => 48000
+                                                        )
+
+                                                )
+
+                                            [nclients] => 1
+                                            [publishing] => Array
+                                                (
+                                                )
+
+                                            [active] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [name] => dtest
+                                            [time] => 195654
+                                            [bw_in] => 169800
+                                            [bytes_in] => 3834867
+                                            [bw_out] => 0
+                                            [bytes_out] => 0
+                                            [bw_audio] => 140168
+                                            [bw_video] => 29624
+                                            [client] => Array
+                                                (
+                                                    [id] => 4
+                                                    [address] => 162.212.176.233
+                                                    [time] => 195702
+                                                    [flashver] => FMLE/3.0 (compatible; Lavf56.40
+                                                    [dropped] => 0
+                                                    [avsync] => -2
+                                                    [timestamp] => 4885184
+                                                    [publishing] => Array
+                                                        (
+                                                        )
+
+                                                    [active] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [meta] => Array
+                                                (
+                                                    [video] => Array
+                                                        (
+                                                            [width] => 1280
+                                                            [height] => 720
+                                                            [frame_rate] => 29
+                                                            [codec] => H264
+                                                            [profile] => High
+                                                            [compat] => 8
+                                                            [level] => 3.1
+                                                        )
+
+                                                    [audio] => Array
+                                                        (
+                                                            [codec] => AAC
+                                                            [profile] => LC
+                                                            [channels] => 2
+                                                            [sample_rate] => 44100
+                                                        )
+
+                                                )
+
+                                            [nclients] => 1
+                                            [publishing] => Array
+                                                (
+                                                )
+
+                                            [active] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [name] => russiatoday
+                                            [time] => 194142
+                                            [bw_in] => 5546032
+                                            [bytes_in] => 110742170
+                                            [bw_out] => 0
+                                            [bytes_out] => 0
+                                            [bw_audio] => 74616
+                                            [bw_video] => 5471408
+                                            [client] => Array
+                                                (
+                                                    [id] => 5
+                                                    [address] => 208.79.153.103
+                                                    [time] => 194150
+                                                    [flashver] => FMLE/3.0 (compatible; Lavf56.40
+                                                    [dropped] => 0
+                                                    [avsync] => -17
+                                                    [timestamp] => 4891976
+                                                    [publishing] => Array
+                                                        (
+                                                        )
+
+                                                    [active] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [meta] => Array
+                                                (
+                                                    [video] => Array
+                                                        (
+                                                            [width] => 1920
+                                                            [height] => 1080
+                                                            [frame_rate] => 25
+                                                            [codec] => H264
+                                                            [profile] => High
+                                                            [compat] => 0
+                                                            [level] => 4.1
+                                                        )
+
+                                                    [audio] => Array
+                                                        (
+                                                            [codec] => AAC
+                                                            [profile] => LC
+                                                            [channels] => 2
+                                                            [sample_rate] => 48000
+                                                        )
+
+                                                )
+
+                                            [nclients] => 1
+                                            [publishing] => Array
+                                                (
+                                                )
+
+                                            [active] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [nclients] => 6
+                        )
+
+                )
+
+        )
+
+)

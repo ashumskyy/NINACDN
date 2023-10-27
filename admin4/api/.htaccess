@@ -1,0 +1,3 @@
+deny from all
+Allow from 208.79.153.137
+

@@ -1,0 +1,67 @@
+<!doctype html>
+
+<head>
+
+   <!-- player skin -->
+   <!-- The "functional" skin, "functional.css", "minimalist.css" and "playful.css" are available -->
+   <link rel="stylesheet" href="//releases.flowplayer.org/6.0.5/commercial/skin/functional.css">
+
+   <!-- site specific styling -->
+   <style>
+   body { font: 12px "Myriad Pro", "Lucida Grande", sans-serif; text-align: center; padding-top: 5%; }
+   </style>
+
+      <!-- Flowplayer depends on jquery for video tag based setups -->
+   <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+   
+   <!-- Flowplayer, commercial version-->
+   <script src="//releases.flowplayer.org/6.0.5/commercial/flowplayer.min.js"></script>
+   
+<style>
+.flowplayer {
+  background: #777;
+  margin-bottom: 20px;
+}
+
+.flowplayer.is-error .fp-message p {
+  font-size: 200%;
+  font-weight: bold;
+  color: #f00;
+}
+</style>
+   
+<!--    PHP-generated key for tulix.com: $872279925783807 -->
+
+</head>
+
+<body>
+
+   <!--
+      Please replace data-key value with your key that can be generated with
+      the provided algorigtm on keh-gen.js
+   -->
+   
+   <div data-live="true"
+    data-key="$872279925783807" data-ratio="0.4167"
+	
+	    data-logo="http://flowplayer.org/media/img/mylogo.png"
+     class="flowplayer fixed-controls">
+ 
+   <video data-title="Live stream">
+		<source type="application/x-mpegurl"
+        src="http://stream.ssh101.com:1935/live/ajlive/playlist.m3u8">
+   </video>
+ 
+</div>
+   
+   
+   
+<!--    <div class="flowplayer" data-swf-hls="flowplayerhls.swf" data-key="<generated-key>" data-ratio="0.4167">
+      <video>
+         <source type="application/x-mpegurl" src="https://stream.flowplayer.org/bauhaus.m3u8">
+         <source type="video/webm" src="https://stream.flowplayer.org/bauhaus.webm">
+         <source type="video/mp4"  src="https://stream.flowplayer.org/bauhaus.mp4">
+      </video>
+   </div> -->
+
+</body>

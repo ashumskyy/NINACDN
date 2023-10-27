@@ -1,0 +1,433 @@
+    .circle-abs{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+
+    .circle-container {
+        width: 100vw;
+        height: 100vh;
+        background-color: #CE97B0;
+        position: relative;
+        overflow: hidden;
+    }
+
+    
+
+    .rect,
+    .circle {
+        width: 30%;
+        height: 50%;
+        position: absolute;
+    }
+
+    .circle {
+        border-radius: 100%;
+    }
+
+    .cir1 {
+        background-color: #ff000099;
+        top: -5%;
+        left: 0;
+        animation: ani1 20s infinite;
+    }
+
+    .cir2 {
+        background-color: #00ff0099;
+        top: 0;
+        left: 25%;
+        animation: ani2 20s infinite;
+    }
+
+    .cir3 {
+        background-color: #0000ff99;
+        top: 0;
+        left: 50%;
+        animation: ani3 20s infinite;
+    }
+
+    .cir4 {
+        background-color: #f0f00099;
+        top: 0;
+        left: 75%;
+        animation: ani4 18s infinite;
+    }
+
+    .cir5 {
+        background-color: #0ff0f099;
+        bottom: 0;
+        left: 0;
+        animation: ani5 18s infinite;
+    }
+
+    .cir6 {
+        background-color: #ff00ff99;
+        bottom: 0;
+        left: 25%;
+        animation: ani6 16s infinite;
+    }
+
+    .cir7 {
+        background-color: #f0ff0099;
+        bottom: 0;
+        left: 50%;
+        animation: ani7 20s infinite;
+    }
+
+    .cir8 {
+        background-color: #00ff9999;
+        bottom: 0;
+        left: 75%;
+        animation: ani8 18s infinite;
+    }
+
+    .overlay {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 10;
+        backdrop-filter: blur(180px);
+        -webkit-backdrop-filter: blur(180px);
+        overflow: overlay;
+        /* animation: over 6s infinite ease-in-out; */
+        /* background-image: linear-gradient(to right bottom,#fbdb89,#f48982); */
+    }
+
+
+
+    .main-container2 {
+        width: 40rem;
+        /* background-color: #f9f5f3; */
+        background-color: #f2efee;
+        /* box-shadow: 0 0 20px #00000011; */
+        margin: auto;
+        /* min-height: 50vh; */
+        padding-bottom: 2rem;
+        box-shadow: 0 2rem 6rem 0.5rem rgb(97 85 81 / 20%);
+        margin-top: 12rem;
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+
+    .login-header{
+        width: 100%;
+        padding: 3rem;
+        background-color: #f9f5f3;
+    }
+
+    .login-header-logo{
+        height: 6rem;
+        display: block;
+        margin: auto;
+    }
+
+    .login-title{
+        font-size: 1.4rem;
+        font-weight: 700;
+        /* margin-bottom: 2.5rem; */
+    }
+
+    .login-p{
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-bottom: 2.0rem;
+    }
+
+    .login-title2{
+        font-size: 1.2rem;
+        font-weight: 700;
+        color:#615551;
+        display: block;
+    }
+
+    .form-input{
+        display: block;
+        width: 100%;
+        padding: 1rem 1.5rem;
+        background-color: #fff;
+        /* outline: none; */
+        border: 0;
+        border-radius: 0.3rem;
+        margin-bottom: 2rem;
+        box-shadow: 0 5px 10px #00000011;
+    }
+    .form-input:focus{
+        outline: 2px solid #f38e82;
+    }
+
+    input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, textarea:-webkit-autofill, textarea:-webkit-autofill:hover, textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
+        /* border: 2px solid #f38e8266; */
+        /* -webkit-text-fill-color: #0093FF; */
+        -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+        /* transition: background-color 5000s ease-in-out 0s; */
+    }
+
+
+    .form-btn{
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding: 1.1rem 4rem;
+        background-image: linear-gradient(to right bottom,#fbdb89,#f48982);
+        border-radius: 3rem;
+        border: 0;
+        color: #615551;
+        cursor: pointer;
+        transition: box-shadow 0.2s;
+        /* width: 100%; */
+    }
+
+    .form-btn:hover{
+        box-shadow: 0 5px 10px #00000021;
+
+    }
+
+    @media (max-width: 768px) {
+        .overlay {
+            backdrop-filter: blur(80px);
+        }
+    }
+
+    @media (max-width: 460px) {
+        .overlay {
+            backdrop-filter: blur(60px);
+        }
+
+        
+        .main-container2 {
+            width: 90%;
+           
+        }
+    }
+
+
+    @keyframes ani1 {
+        0% {
+            background-color: #f48982;
+            transform: translate(-10%,-10%);
+        }
+        25% {
+            background-color: #fbdb89;
+            transform: translate(0%,0%);
+        }
+        50% {
+            background-color: #f48982;
+            transform: translate(10%,10%);
+        }
+        75% {
+            background-color: #fbdb89;
+            transform: translate(0%,0%);
+        }
+        100% {
+            background-color: #f48982;
+            transform: translate(-10%,-10%);
+        }
+    }
+
+    @keyframes ani2 {
+        0% {
+            background-color: #fbdb89;
+            transform: translate(0%,-10%);
+        }
+        25% {
+            background-color: #f48982;
+            transform: translate(0%,0%);
+        }
+        50% {
+            background-color: #fbdb89;
+            transform: translate(0%,10%);
+        }
+        75% {
+            background-color: #f48982;
+            transform: translate(0%,0%);
+        }
+        100% {
+            background-color: #fbdb89;
+            transform: translate(0%,-10%);
+        }
+    }
+
+    @keyframes ani3 {
+        0% {
+            background-color: #f48982;
+            transform: translate(0%,20%);
+        }
+        25% {
+            background-color: #fbdb89;
+            transform: translate(0%,10%);
+        }
+        50% {
+            background-color: #f48982;
+            transform: translate(0%,0%);
+        }
+        75% {
+            background-color: #fbdb89;
+            transform: translate(0%,10%);
+        }
+        100% {
+            background-color: #f48982;
+            transform: translate(0%,20%);
+        }
+    }
+
+    @keyframes ani4 {
+        0% {
+            background-color: #fbdb89;
+            transform: translate(0%,0%);
+        }
+        25% {
+            background-color: #f48982;
+            transform: translate(-10%,10%);
+        }
+        50% {
+            background-color: #fbdb89;
+            transform: translate(-20%,20%);
+        }
+        75% {
+            background-color: #f48982;
+            transform: translate(-10%,10%);
+        }
+        100% {
+            background-color: #fbdb89;
+            transform: translate(0%,0%);
+        }
+    }
+
+    @keyframes ani5 {
+        0% {
+            background-color: #f48982;
+            transform: translate(0%,0%);
+        }
+        25% {
+            background-color: #fbdb89;
+            transform: translate(10%,-10%);
+        }
+        50% {
+            background-color: #f48982;
+            transform: translate(20%,-20%);
+        }
+        75% {
+            background-color: #fbdb89;
+            transform: translate(10%,-10%);
+        }
+        100% {
+            background-color: #f48982;
+            transform: translate(0%,0%);
+        }
+    }
+
+    @keyframes ani5 {
+        0% {
+            background-color: #fbdb89;
+            transform: translate(0%,0%);
+        }
+        25% {
+            background-color: #f48982;
+            transform: translate(10%,-10%);
+        }
+        50% {
+            background-color: #fbdb89;
+            transform: translate(20%,-20%);
+        }
+        75% {
+            background-color: #f48982;
+            transform: translate(10%,-10%);
+        }
+        100% {
+            background-color: #fbdb89;
+            transform: translate(0%,0%);
+        }
+    }
+
+    
+    @keyframes ani6 {
+        0% {
+            background-color: #f48982;
+            transform: translate(0%,0%);
+        }
+        25% {
+            background-color: #fbdb89;
+            transform: translate(0%,10%);
+        }
+        50% {
+            background-color: #f48982;
+            transform: translate(0%,20%);
+        }
+        75% {
+            background-color: #fbdb89;
+            transform: translate(0%,10%);
+        }
+        100% {
+            background-color: #f48982;
+            transform: translate(0%,0%);
+        }
+    }
+
+    
+    @keyframes ani7 {
+        0% {
+            background-color: #fbdb89;
+            transform: translate(0%,20%);
+        }
+        25% {
+            background-color: #f48982;
+            transform: translate(0%,10%);
+        }
+        50% {
+            background-color: #fbdb89;
+            transform: translate(0%,0%);
+        }
+        75% {
+            background-color: #f48982;
+            transform: translate(0%,10%);
+        }
+        100% {
+            background-color: #fbdb89;
+            transform: translate(0%,20%);
+        }
+    }
+
+    
+    @keyframes ani8 {
+        0% {
+            background-color: #f48982;
+            transform: translate(-10%,-10%);
+        }
+        25% {
+            background-color: #fbdb89;
+            transform: translate(0%,0%);
+        }
+        50% {
+            background-color: #f48982;
+            transform: translate(10%,10%);
+        }
+        75% {
+            background-color: #fbdb89;
+            transform: translate(0%,0%);
+        }
+        100% {
+            background-color: #f48982;
+            transform: translate(-10%,-10%);
+        }
+    }
+
+    @keyframes over {
+        0% {
+            /* background-image: linear-gradient(to right bottom,#fbdb89,#f48982); */
+            transform: translate(0%,0%);
+        }
+        25% {
+            transform: translate(-25%,0%);
+        }
+        50% {
+            transform: translate(-50%,0%);
+        }
+        75% {
+            transform: translate(-25%,0%);
+        }
+        100% {
+            transform: translate(0%,0%);
+        }
+    }
